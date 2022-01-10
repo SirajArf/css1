@@ -1,0 +1,23 @@
+<!--inline style has priority over other style-->
+<style>
+    body {
+      background-color: black;
+      font-family: monospace;
+      color: green;
+    }
+    /*.red-text {
+        color: red !important;
+    }
+    */
+    .red-text {
+      color: red;
+    }
+    .green-text {
+      color: green;
+    }
+
+    #orange-text{
+        color: orange;
+    }
+  </style>
+  <h1 class="green-text red-text" id="orange-text" style="color:violet;">Hello World!</h1>
